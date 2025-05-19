@@ -1,6 +1,6 @@
 # Rectangle Movement (Pygame)
 
-This is a small Python game using Pygame where you can move a white rectangle around the screen using your keyboard.
+This is a small Python game using Pygame where you can move a red rectangle around the screen using your keyboard.
 
 ## ✨ What it does
 
