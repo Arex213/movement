@@ -10,7 +10,7 @@ dt=0
 # Rectangle setup
 rect_x, rect_y = 600, 340
 rect_width, rect_height = 50,50
-rect_speed = 300  # 10 pixels per second
+rect_speed = 300  # 300 pixels per second
 
 while running:
     # poll for events
@@ -32,7 +32,7 @@ while running:
     # fill the screen with a color to wipe away anything from last frame
     screen.fill("black")
 
-    # RENDER YOUR GAME HERE
+    # draw the rectangle
     pygame.draw.rect(screen, (255,0,0), (int(rect_x), int(rect_y), rect_width, rect_height))
 
     # flip() the display to put your work on screen
